@@ -1,0 +1,107 @@
+body
+{
+	text-align: center;
+	margin: auto;
+	background-color: blanchedalmond;
+}
+button
+{
+	
+}
+div
+{
+	width: 400pt;
+	height: 400pt;
+	margin: auto;
+}
+.board
+{
+	border: 1pt solid black;
+}
+.column
+{
+	width: 50pt;
+	height: 400pt;
+	display: inline-block;
+	transform: rotate(180deg);
+}
+.whiteCell
+{
+	width:50pt;
+	height: 50pt;
+	background-color: gray;
+	position: relative;
+}
+.blackCell
+{
+	width: 50pt;
+	height: 50pt;
+	background-color: black;
+	border: none;
+	position: relative;	
+}
+.pawn
+{
+	width: 10pt;
+	height: 10pt;
+	background-color:red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.rook
+{
+	width: 10pt;
+	height: 10pt;
+	background-color:red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.knight
+{
+	width: 10pt;
+	height: 10pt;
+	background-color:red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.bishop
+{
+	width: 10pt;
+	height: 10pt;
+	background-color:red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.queen
+{
+	width: 10pt;
+	height: 10pt;
+	background-color:red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.king
+{
+	width: 10pt;
+	height: 10pt;
+	background-color:red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.selected
+{
+	background-color: #FFFF00;
+}
